@@ -1,0 +1,6 @@
+//This code should be applied to the object which the player is moving around.
+//When the player is above the object, the object will go to a higher layer than the player
+//When the player is below the object, the object will go to a lower layer than the player.
+
+if Player.y-y<0 depth=3
+else depth=5
